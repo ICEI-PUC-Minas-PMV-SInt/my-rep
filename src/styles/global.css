@@ -2,4 +2,14 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #fffafa;
+  color: #2e2727;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 75rem;
+  padding: 1rem;
+  margin: 0 auto;
 }
