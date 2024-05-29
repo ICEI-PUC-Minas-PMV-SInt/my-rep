@@ -5,6 +5,8 @@ body {
   background-color: #fffafa;
   color: #2e2727;
   box-sizing: border-box;
+  line-height: 150%;
+  font-weight: 300;
 }
 
 .container {

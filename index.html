@@ -9,7 +9,6 @@
   <body>
     <header class="header">
       <div class="container headerBox">
-        <!-- <div class=""> -->
         <div><span class="my">My</span><span class="rep">Rep</span></div>
         <div class="searchBox">
           <input
@@ -17,28 +16,31 @@
             class="input"
             placeholder="Busque sua republica aqui..."
           />
-          <img src="./src/assets/img/icons/search.png" alt="lupa" class="searchIcon" />
+          <img
+            src="./src/assets/img/icons/search.png"
+            alt="lupa"
+            class="searchIcon"
+          />
         </div>
         <nav class="navBar">
-          <a href="#">Início</a>
+          <a href="#home">Início</a>
           <a href="#">Anunciar</a>
           <a href="#">Minha Conta</a>
         </nav>
-        <!-- </div> -->
       </div>
     </header>
     <main>
-      <section>
-        <div>
-          <div>
-            <h1>Escolha a república perfeita para você!</h1>
-            <p>
+      <section id="home">
+        <div class="container homeBox">
+          <div class="homeTextBox">
+            <h1 class="homeTitle">Escolha a república perfeita para você!</h1>
+            <p class="homeParagraph">
               Aqui você encontra o ambiente perfeito para compartilhar com
               pessoas que realmente combinam com você!
             </p>
-            <button>Buscar agora</button>
+            <button class="buttonSolid">Buscar agora</button>
           </div>
-          <div>
+          <div class="homeImageBox">
             <img src="./src/assets/img/mainImg.png" alt="imagem principal" />
           </div>
         </div>
