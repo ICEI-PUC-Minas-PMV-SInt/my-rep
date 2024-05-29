@@ -1,4 +1,5 @@
-.highlightContainer {
+.highlightContainer,
+.availableRepsContainer {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -6,7 +7,6 @@
 
 .highlightBox {
   display: grid;
-  grid-template-rows: 1fr 1fr;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 13px;
 }
@@ -66,4 +66,34 @@
 .repLocationCard {
   font-size: 16px;
   font-weight: 300;
+}
+
+.availableRepsBox {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 18px;
+  width: 100%;
+}
+
+.mostAccessedLabel {
+  padding: clamp(4px, 5vw, 10px);
+  border-radius: 0 8px 0 8px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fffafa;
+  background-color: #ff498b;
+}
+
+.availableRepCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.repCardLocation {
+  font-size: 16px;
+  color: #b0b0b0;
 }

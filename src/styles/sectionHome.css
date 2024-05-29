@@ -21,7 +21,7 @@
 }
 
 .homeTitle {
-  font-size: 42px;
+  font-size: clamp(26px, 5vw, 42px);
   color: #152c5b;
   line-height: 150%;
 }
@@ -46,4 +46,10 @@
   @media screen and (min-width: 800px) {
     max-width: 45%;
   }
+}
+
+.repCardTitle {
+  font-size: 20px;
+  color: #152C5B;
+  font-weight: 400;
 }
