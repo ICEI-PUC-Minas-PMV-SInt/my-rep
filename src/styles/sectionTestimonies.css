@@ -17,6 +17,12 @@
   gap: 20px;
 }
 
+.testimonyName {
+  font-size: 18px;
+  font-weight: 300;
+  color: #b0b0b0;
+}
+
 .starsBox {
   display: flex;
   gap: 12px;
