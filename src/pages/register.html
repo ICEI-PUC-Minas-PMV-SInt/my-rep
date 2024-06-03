@@ -35,8 +35,18 @@
       <main class="mainBox center">
         <div class="container mediumBox">
           <div class="loginBox">
-            <h1 class="title1 space">Login</h1>
+            <h1 class="title1 space">Cadastro</h1>
             <form class="mediumBox center">
+              <div class="inputBox">
+                <label for="name" class="label">Nome</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="input"
+                  placeholder="Digite seu e-mail"
+                  required
+                />
+              </div>
               <div class="inputBox">
                 <label for="email" class="label">Email</label>
                 <input
@@ -57,9 +67,19 @@
                   required
                 />
               </div>
-              <button class="buttonSolid" type="submit">Entrar</button>
-              <a class="textForm" href="./register.html">Ainda não possui uma conta?</a>
-              <a class="textForm" href="./register.html">Faça o cadastro.</a>
+              <div class="inputBox">
+                <label for="confirmPassword" class="label">Confirmar Senha</label>
+                <input
+                  type="password"
+                  id="confirmPassword"
+                  class="input"
+                  placeholder="Confirme sua senha"
+                  required
+                />
+              </div>
+              <button class="buttonSolid" type="submit">Cadastrar</button>
+              <a class="textForm" href="./login.html">Já possui uma conta?</a>
+              <a class="textForm" href="./login.html">Faça o login.</a>
             </form>
           </div>
         </div>
