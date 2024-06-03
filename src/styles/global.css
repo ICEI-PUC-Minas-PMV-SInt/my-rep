@@ -21,3 +21,14 @@ body {
   flex-direction: column;
   gap: 50px;
 }
+
+.mediumBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  &.center {
+    justify-content: center;
+    align-items: center;
+  }
+}
