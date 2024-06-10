@@ -6,7 +6,11 @@
 }
 
 .testimonyImage {
-  min-width: 30%;
+  max-width: 30%;
+
+  img {
+    border-radius: 160px 410px 220px 110px;
+  }
 }
 
 .testimonyInfo {
