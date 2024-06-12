@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/index.css" />
+    <script src="../../index.js" defer></script>
     <title>MyRep</title>
   </head>
   <body>
@@ -36,7 +37,7 @@
         <div class="container mediumBox">
           <div class="loginBox">
             <h1 class="title1 space">Login</h1>
-            <form class="mediumBox center">
+            <form class="mediumBox center" id="loginForm">
               <div class="inputBox">
                 <label for="email" class="label">Email</label>
                 <input
@@ -58,7 +59,9 @@
                 />
               </div>
               <button class="buttonSolid" type="submit">Entrar</button>
-              <a class="textForm" href="./register.html">Ainda não possui uma conta?</a>
+              <a class="textForm" href="./register.html"
+                >Ainda não possui uma conta?</a
+              >
               <a class="textForm" href="./register.html">Faça o cadastro.</a>
             </form>
           </div>
