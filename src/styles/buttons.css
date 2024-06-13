@@ -9,6 +9,7 @@
   color: #fffafa;
   background-color: #0094ff;
   transition: all 150ms ease-in-out;
+  align-content: center;
 }
 
 .buttonSolid:hover {
